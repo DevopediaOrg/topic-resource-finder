@@ -9,3 +9,5 @@ search_results = re.findall(r'href=\"\/watch\?v=(.{11})', html_content.read().de
 print ("Fetching the videos for keyword : "+search_param)
 for result in search_results:
     print("http://www.youtube.com/watch?v=" + result)
+
+# just list of URLs, duplicates

@@ -1,0 +1,4 @@
+pytz
+requests
+newspaper3k
+readability-lxml
